@@ -1,4 +1,5 @@
 <img width="250" height="250" alt="logo samier" src="https://github.com/user-attachments/assets/ec09f607-4b50-43e5-b40a-7ac632a47da2" />
+
 Projeto SAMIER
 Autodeclaração Consciente e Inclusão
 Sistema de Autodeclaração e Monitoramento de Identidade Étnico-Racial
