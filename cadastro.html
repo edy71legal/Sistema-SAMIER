@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Autodeclaração Consciente</title>
+  <style>
+    body { font-family: Arial; max-width: 600px; margin: auto; padding: 20px; }
+    input, select { width: 100%; margin: 10px 0; padding: 8px; }
+    button { padding: 10px; width: 100%; }
+  </style>
+</head>
+<body>
+  <h2>Formulário de Autodeclaração</h2>
+  <form action="salvar.php" method="post">
+    <input type="text" name="nome_completo" placeholder="Nome completo" required>
+    <input type="text" name="cpf" placeholder="CPF" required>
+    <input type="text" name="rg" placeholder="RG" required>
+    <input type="date" name="data_nascimento" required>
+    <select name="raca_cor" required>
+      <option value="">Selecione raça/cor</option>
+      <option value="Branca">Branca</option>
+      <option value="Preta">Preta</option>
+      <option value="Parda">Parda</option>
+      <option value="Amarela">Amarela</option>
+      <option value="Indígena">Indígena</option>
+      <option value="Prefere não declarar">Prefere não declarar</option>
+
+    </select>
+    <select name="turma_id" required>
+      <option value="1">3º MSI-01</option>
+         <option value="2">2º MSI-01</option>
+         <option value="3">2º MSI-02</option>
+             <option value="4">1º MSI-01</option>
+             <option value="5">1º MSI-02</option>
+                  <option value="6">3º EM-01</option>
+                 <option value="7">3º EM-02</option>
+            
+
+    </select>
+    <button type="submit">Enviar autodeclaração</button>
+  </form>
+  <!-- <a href="relatorio.php">Ver indicadores</a> -->
+</body>
+</html>

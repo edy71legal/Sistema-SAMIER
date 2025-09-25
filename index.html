@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAMIER - Sistema de Autodeclaração</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 10px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .btn {
+      background-color: #fff;
+      color: #0072ff;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0072ff;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+
+    .logo {
+      margin-bottom: 20px;
+      width: 100px;
+      height: auto;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.8rem;
+      opacity: 0.7;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="logo_samier.png" alt="Logomarca SAMIER" class="logo"/>
+
+  <h1>Bem-vindo ao SAMIER</h1>
+  <p>
+    Sistema de Autodeclaração Consciente e Monitoramento de Indicadores Étnico-Raciais.<br>
+    Uma iniciativa do 3º MSI para promover o reconhecimento da diversidade e construir indicadores educativos com base em dados reais.
+  </p>
+
+  <div class="btn-group">
+    <a href="cadastro.html" class="btn">Fazer Autodeclaração</a>
+    <a href="relatorio_turma.php" class="btn">Relatório por Turma</a>
+    <a href="relatorio_geral.php" class="btn">Relatório Geral</a>
+    <a href="relatorio_topicos.php" class="btn">Relatórios por Indicador</a>
+  </div>
+
+  <footer>
+    © 2025 - Desenvolvido por 3º MSI com Prof. Edimilson e Prof. Gerbison
+  </footer>
+
+</body>
+</html>
